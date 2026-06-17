@@ -12,16 +12,19 @@ const features = [
   {
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <rect x="3" y="3" width="7" height="7" rx="1" stroke="#1B4332" strokeWidth="1.8" />
-        <rect x="14" y="3" width="7" height="7" rx="1" stroke="#1B4332" strokeWidth="1.8" />
-        <rect x="3" y="14" width="7" height="7" rx="1" stroke="#1B4332" strokeWidth="1.8" />
-        <rect x="16" y="16" width="3" height="3" fill="#1B4332" />
-        <rect x="14" y="14" width="3" height="3" fill="#1B4332" />
-        <rect x="18" y="14" width="3" height="3" fill="#1B4332" />
+        <rect x="2" y="4" width="2" height="14" fill="#1B4332" />
+        <rect x="5" y="4" width="1" height="14" fill="#1B4332" />
+        <rect x="7" y="4" width="2" height="14" fill="#1B4332" />
+        <rect x="10" y="4" width="1" height="14" fill="#1B4332" />
+        <rect x="12" y="4" width="3" height="14" fill="#1B4332" />
+        <rect x="16" y="4" width="1" height="14" fill="#1B4332" />
+        <rect x="18" y="4" width="2" height="14" fill="#1B4332" />
+        <rect x="21" y="4" width="1" height="14" fill="#1B4332" />
+        <text x="2" y="22" fontFamily="monospace" fontSize="5" fill="#1B4332">ISBN</text>
       </svg>
     ),
-    title: "Scan QR intelligent",
-    description: "Reconnaissance instantanée via le QR code ou le code-barres ISBN. Compatible avec 10 millions de livres.",
+    title: "Scan ISBN intelligent",
+    description: "Reconnaissance instantanée via le code-barres ISBN. Compatible avec 10 millions de livres.",
     bg: "#EFF6FF",
   },
   {

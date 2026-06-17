@@ -51,7 +51,7 @@ export default function Hero() {
 
           {/* Subline */}
           <p className="text-lg text-[#4B5563] leading-relaxed max-w-md">
-            Scannez le QR code de votre livre — VideLivre remplit automatiquement
+            Scannez le code-barres ISBN de votre livre — VideLivre remplit automatiquement
             titre, auteur et description. Il ne vous reste qu&apos;à fixer le prix
             et publier.
           </p>

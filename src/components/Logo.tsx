@@ -10,15 +10,12 @@ export default function Logo({ className = "" }: { className?: string }) {
       {/* Book icon */}
       <rect x="1" y="5" width="22" height="26" rx="3" fill="#1B4332" />
       <rect x="4" y="8" width="16" height="20" rx="1.5" fill="#FAFAF7" />
-      {/* QR code dots on book */}
-      <rect x="6" y="10" width="4" height="4" rx="0.5" fill="#1B4332" />
-      <rect x="12" y="10" width="4" height="4" rx="0.5" fill="#1B4332" />
-      <rect x="6" y="16" width="4" height="4" rx="0.5" fill="#1B4332" />
-      <rect x="12" y="16" width="2" height="2" rx="0.3" fill="#F59E0B" />
-      <rect x="14" y="18" width="2" height="2" rx="0.3" fill="#1B4332" />
-      <rect x="6" y="22" width="2" height="2" rx="0.3" fill="#1B4332" />
-      <rect x="9" y="22" width="2" height="2" rx="0.3" fill="#1B4332" />
-      <rect x="12" y="22" width="4" height="2" rx="0.3" fill="#1B4332" />
+      {/* ISBN barcode on book */}
+      <rect x="6" y="10" width="1.5" height="14" fill="#1B4332" />
+      <rect x="8.5" y="10" width="1" height="14" fill="#1B4332" />
+      <rect x="10.5" y="10" width="2" height="14" fill="#1B4332" />
+      <rect x="13.5" y="10" width="1" height="14" fill="#1B4332" />
+      <rect x="15.5" y="10" width="1.5" height="14" fill="#F59E0B" />
       {/* Spine line */}
       <rect x="1" y="5" width="3" height="26" rx="1" fill="#2D6A4F" />
       {/* Scan beam */}

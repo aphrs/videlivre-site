@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: "VideLivre — Vendez vos livres en 30 secondes",
   description:
-    "Scannez le QR code de votre livre et publiez votre annonce en quelques secondes. VideLivre simplifie la vente de livres d'occasion.",
+    "Scannez le code-barres ISBN de votre livre et publiez votre annonce en quelques secondes. VideLivre simplifie la vente de livres d'occasion.",
   openGraph: {
     title: "VideLivre — Vendez vos livres en 30 secondes",
     description:

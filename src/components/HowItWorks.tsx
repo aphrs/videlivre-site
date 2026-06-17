@@ -4,7 +4,7 @@ const steps = [
     emoji: "📷",
     title: "Scannez",
     description:
-      "Ouvrez VideLivre et pointez votre caméra sur le QR code au dos du livre. La reconnaissance est instantanée.",
+      "Ouvrez VideLivre et pointez votre caméra sur le code-barres ISBN au dos du livre. La reconnaissance est instantanée.",
     color: "#E8F5E9",
     accent: "#1B4332",
   },

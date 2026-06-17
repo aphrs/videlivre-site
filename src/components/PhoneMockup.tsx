@@ -52,28 +52,27 @@ export default function PhoneMockup() {
               <svg width="100" height="130" viewBox="0 0 100 130" fill="none">
                 <rect x="5" y="5" width="90" height="120" rx="6" fill="#E8D5B7" />
                 <rect x="5" y="5" width="12" height="120" rx="3" fill="#C4A882" />
-                {/* QR code on book */}
-                <rect x="25" y="25" width="50" height="50" rx="3" fill="white" />
-                <rect x="28" y="28" width="10" height="10" rx="1" fill="#111" />
-                <rect x="29" y="29" width="8" height="8" rx="0.5" fill="white" />
-                <rect x="30" y="30" width="6" height="6" rx="0.5" fill="#111" />
-                <rect x="57" y="28" width="10" height="10" rx="1" fill="#111" />
-                <rect x="58" y="29" width="8" height="8" rx="0.5" fill="white" />
-                <rect x="59" y="30" width="6" height="6" rx="0.5" fill="#111" />
-                <rect x="28" y="57" width="10" height="10" rx="1" fill="#111" />
-                <rect x="29" y="58" width="8" height="8" rx="0.5" fill="white" />
-                <rect x="30" y="59" width="6" height="6" rx="0.5" fill="#111" />
-                <rect x="40" y="28" width="4" height="4" fill="#111" />
-                <rect x="46" y="28" width="2" height="2" fill="#111" />
-                <rect x="50" y="30" width="4" height="4" fill="#111" />
-                <rect x="40" y="34" width="2" height="2" fill="#111" />
-                <rect x="44" y="36" width="4" height="2" fill="#111" />
-                <rect x="40" y="57" width="4" height="4" fill="#111" />
-                <rect x="46" y="59" width="2" height="4" fill="#111" />
-                <rect x="50" y="57" width="6" height="2" fill="#111" />
-                <rect x="54" y="60" width="4" height="4" fill="#111" />
-                <text x="16" y="100" fontFamily="serif" fontSize="9" fill="#555" fontWeight="bold">Harry Potter</text>
-                <text x="20" y="112" fontFamily="serif" fontSize="7" fill="#777">J.K. Rowling</text>
+                {/* ISBN barcode on book */}
+                <rect x="22" y="55" width="56" height="36" rx="2" fill="white" />
+                <rect x="25" y="58" width="2" height="24" fill="#111" />
+                <rect x="28" y="58" width="1" height="24" fill="#111" />
+                <rect x="30" y="58" width="3" height="24" fill="#111" />
+                <rect x="34" y="58" width="1" height="24" fill="#111" />
+                <rect x="36" y="58" width="2" height="24" fill="#111" />
+                <rect x="39" y="58" width="1" height="24" fill="#111" />
+                <rect x="41" y="58" width="3" height="24" fill="#111" />
+                <rect x="45" y="58" width="2" height="24" fill="#111" />
+                <rect x="48" y="58" width="1" height="24" fill="#111" />
+                <rect x="50" y="58" width="3" height="24" fill="#111" />
+                <rect x="54" y="58" width="1" height="24" fill="#111" />
+                <rect x="56" y="58" width="2" height="24" fill="#111" />
+                <rect x="59" y="58" width="3" height="24" fill="#111" />
+                <rect x="63" y="58" width="1" height="24" fill="#111" />
+                <rect x="65" y="58" width="2" height="24" fill="#111" />
+                <rect x="68" y="58" width="1" height="24" fill="#111" />
+                <text x="26" y="90" fontFamily="monospace" fontSize="5" fill="#333">978-2-07-060761-5</text>
+                <text x="16" y="35" fontFamily="serif" fontSize="9" fill="#555" fontWeight="bold">Harry Potter</text>
+                <text x="20" y="47" fontFamily="serif" fontSize="7" fill="#777">J.K. Rowling</text>
               </svg>
             </div>
 
@@ -94,7 +93,7 @@ export default function PhoneMockup() {
 
             {/* Scan label */}
             <div className="absolute bottom-3 left-0 right-0 flex justify-center">
-              <span className="text-[10px] text-white/70 bg-black/40 px-2 py-0.5 rounded-full">Scannez le QR code du livre</span>
+              <span className="text-[10px] text-white/70 bg-black/40 px-2 py-0.5 rounded-full">Scannez le code-barres ISBN</span>
             </div>
           </div>
 
