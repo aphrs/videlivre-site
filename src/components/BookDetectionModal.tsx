@@ -264,7 +264,7 @@ export default function BookDetectionModal({ onClose }: Props) {
 
               <div className="pt-2 border-t border-[#E5E7E0]">
                 <p className="text-xs text-[#9CA3AF] text-center">
-                  Propulsé par Claude AI · Résultats indicatifs selon la qualité de la photo
+                  Propulsé par OpenAI · Résultats indicatifs selon la qualité de la photo
                 </p>
               </div>
             </div>
