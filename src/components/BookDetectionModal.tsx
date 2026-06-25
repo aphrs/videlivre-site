@@ -19,7 +19,6 @@ interface Props {
 
 export default function BookDetectionModal({ onClose }: Props) {
   const [preview, setPreview] = useState<string | null>(null);
-  const [mediaType, setMediaType] = useState<string>("image/jpeg");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<DetectionResult | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -33,7 +32,6 @@ export default function BookDetectionModal({ onClose }: Props) {
     }
     setError(null);
     setResult(null);
-    setMediaType(file.type as string);
 
     const reader = new FileReader();
     reader.onload = (e) => {
@@ -65,7 +63,7 @@ export default function BookDetectionModal({ onClose }: Props) {
       const res = await fetch("/api/detect-books", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ image: base64, mediaType }),
+        body: JSON.stringify({ image: base64 }),
       });
 
       if (!res.ok) {
@@ -111,7 +109,7 @@ export default function BookDetectionModal({ onClose }: Props) {
             </span>
             <div>
               <h2 className="text-base font-bold text-[#111827]">Détection de livres</h2>
-              <p className="text-xs text-[#6B7280]">Analyse les tranches de vos livres par IA</p>
+              <p className="text-xs text-[#6B7280]">Analyse locale des tranches de vos livres</p>
             </div>
           </div>
           <button
@@ -264,7 +262,7 @@ export default function BookDetectionModal({ onClose }: Props) {
 
               <div className="pt-2 border-t border-[#E5E7E0]">
                 <p className="text-xs text-[#9CA3AF] text-center">
-                  Propulsé par OpenAI · Résultats indicatifs selon la qualité de la photo
+                  Détection locale open source · Résultats indicatifs selon la qualité de la photo
                 </p>
               </div>
             </div>
